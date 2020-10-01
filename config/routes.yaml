@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+bonjour:
+  path: /bonjour/{number}
+  controller: App\Controller\BonjourController::index
+  requirements:
+    number: '\d+'
