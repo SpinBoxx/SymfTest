@@ -2,7 +2,7 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": ">=7.2.5",
+        "php": "7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "composer/package-versions-deprecated": "^1.11",
@@ -98,6 +98,12 @@
         "symfony": {
             "allow-contrib": false,
             "require": "5.1.*"
+        },
+        "incenteev-parameters": {
+            "env-map": {
+                "database_host": "DATABASE_HOST",
+                "database_port": "DATABASE_PORT"
+            }
         }
     }
 }
