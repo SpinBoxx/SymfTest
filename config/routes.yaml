@@ -7,3 +7,7 @@ bonjour:
   controller: App\Controller\BonjourController::index
   requirements:
     number: '\d+'
+
+bonjourForm:
+  path: /bonjour/form
+  controller: App\Controller\BonjourController::createUserForm
