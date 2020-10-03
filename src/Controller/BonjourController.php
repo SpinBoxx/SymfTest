@@ -14,7 +14,11 @@ class BonjourController extends AbstractController
     {
         return $this->render('bonjour/index.html.twig', [
             'controller_name' => 'BonjourController',
+            'number' => $number
+
 
         ]);
     }
+
+
 }
